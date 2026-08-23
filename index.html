@@ -45,12 +45,29 @@
             color: #7f8c8d;
             text-align: center;
         }
+        .lang-switch {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .lang-switch a {
+            margin: 0 10px;
+            font-weight: bold;
+            padding: 5px 10px;
+            background-color: #eee;
+            border-radius: 4px;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="lang-switch">
+        <a href="#english">English Version</a>
+        <a href="#chinese">中文版 (Chinese Version)</a>
+    </div>
+
+    <div class="container" id="english">
         <h1>Privacy Policy for Z Pinger</h1>
         <p><strong>Last updated:</strong> August 20, 2026</p>
+        <p><strong>Developer Name:</strong> Zentix Team</p>
 
         <h2>Introduction</h2>
         <p>Zentix Team built the "Z Pinger: Network Stabilizer" app as a Free/Freemium app. This SERVICE is provided by Zentix Team and is intended for use "as is". This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.</p>
@@ -97,6 +114,60 @@
 
         <h2>Contact Us</h2>
         <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at: <a href="mailto:zentixteamofficial@gmail.com">zentixteamofficial@gmail.com</a></p>
+    </div>
+
+    <br><br>
+
+    <div class="container" id="chinese">
+        <h1>Z Pinger 隐私政策</h1>
+        <p><strong>最后更新时间：</strong> 2026年8月20日</p>
+        <p><strong>开发者名称：</strong> Zentix Team</p>
+
+        <h2>引言</h2>
+        <p>Zentix Team 开发了 “Z Pinger: Network Stabilizer” 应用程序，作为免费/免费增值应用程序。本服务由 Zentix Team 按“原样”提供。此页面用于告知访问者，关于收集、使用和披露个人信息的政策。</p>
+
+        <h2>信息收集与使用</h2>
+        <p>我们希望保持透明：Z Pinger 不会收集、存储或共享任何直接的个人身份信息（PII），如姓名、电子邮件或电话号码。该应用程序主要在您的设备上本地运行。我们不追踪您的位置、不读取您的文件，也不访问您的联系人。</p>
+        <p>然而，为了支持此应用程序的开发，我们使用第三方广告服务（如 Unity Ads 及其它广告合作伙伴）。这些第三方服务可能会自动收集非个人身份信息，特别是设备或其他标识符（例如您设备的广告ID）。收集此数据仅用于广告和营销目的，以提供相关广告。</p>
+
+        <h2>应用内购买（高级版）</h2>
+        <p>我们提供可选的应用内购买以解锁高级功能并移除广告。所有支付处理均由第三方计费提供商（如华为应用内支付及其它相应的平台提供商）安全处理。我们不在我们的服务器上收集或存储您的信用卡详细信息或账单信息。</p>
+
+        <h2>第三方服务</h2>
+        <p>该应用程序使用可能会收集用于识别您设备的信息的第三方服务。以下是该应用程序使用的第三方服务提供商的隐私政策链接：</p>
+        <ul>
+            <li><a href="https://consumer.huawei.com/en/privacy/privacy-policy/" target="_blank">华为移动服务 (HMS)</a></li>
+            <li><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" target="_blank">Unity Ads</a></li>
+        </ul>
+
+        <h2>数据安全（传输加密）</h2>
+        <p>我们重视您的信任。我们的第三方广告合作伙伴（例如设备 ID）收集和传输的任何数据均通过安全的加密连接（传输中加密）进行传输，以保护您的信息。</p>
+
+        <h2>网络数据与 Ping 功能</h2>
+        <p>Z Pinger 的核心功能包括向指定的服务器（例如 Google DNS、ISP 域名）发送轻量级 HTTP HEAD 请求（Pings），以防止网络无线电进入空闲模式。</p>
+        <ul>
+            <li>这些请求仅为技术信号。</li>
+            <li>这些请求中不传输任何个人用户数据。</li>
+            <li>您可以随时完全控制启动/停止此服务。</li>
+        </ul>
+
+        <h2>前台服务权限</h2>
+        <p>为了正常运行，Z Pinger 使用前台服务权限（android.permission.FOREGROUND_SERVICE）。为什么需要这个？Android 操作系统会自动暂停后台应用程序以节省电池。为了保持您的互联网连接活跃，Z Pinger 必须在后台持续运行。透明度：每当服务处于活动状态时，状态栏中都会显示持续的通知，确保您始终知道该应用程序正在运行。</p>
+
+        <h2>日志数据</h2>
+        <p>该应用程序显示本地“日志控制台”以向您显示连接 ping 的状态。这些日志暂时存储在您设备的 RAM 中，并在您关闭应用程序或点击删除按钮时被清除。我们不会将这些日志上传到任何外部服务器。</p>
+
+        <h2>数据删除与主体权利</h2>
+        <p>由于 Z Pinger 不需要用户创建帐户，且我们不在服务器上存储个人数据，因此不提供单独的数据删除请求流程。用户可以直接联系我们要求澄清或行使隐私权。</p>
+
+        <h2>儿童隐私</h2>
+        <p>我们的服务不面向 13 岁以下的任何人。我们不会故意收集 13 岁以下儿童的个人身份信息。如果我们发现 13 岁以下的儿童向我们提供了个人信息，我们会立即从我们的服务器中删除。如果您是父母或监护人，并知道您的儿童向我们提供了个人信息，请联系我们，以便我们采取必要的行动。</p>
+
+        <h2>隐私政策的变更</h2>
+        <p>我们可能会不时更新我们的隐私政策。因此，建议您定期查看此页面以了解任何更改。我们将通过在此页面上发布新的隐私政策来通知您任何更改。</p>
+
+        <h2>联系我们</h2>
+        <p>如果您对我们的隐私政策有任何疑问或建议，请随时联系我们：<a href="mailto:zentixteamofficial@gmail.com">zentixteamofficial@gmail.com</a></p>
     </div>
     
     <div class="footer">
